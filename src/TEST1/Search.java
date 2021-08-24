@@ -1,9 +1,8 @@
 package TEST1;
 
 public class Search {
-    public static int SearchForRepetition(String line)
-    {
-
+   
+    public static int searchForRepetition(String line){
         int l = line.length();
         int n = 0;
         for (int i = 0; i < l-2; i++) {
