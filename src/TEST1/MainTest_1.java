@@ -12,7 +12,6 @@ public class MainTest_1
 
         String line =  scanner.nextLine();
 
-        Search search = new Search();
         System.out.println("Заданная сторока: " + line);
         System.out.println("Количество \"троек\" в заданной строке: " + Search.SearchForRepetition(line));
     }
